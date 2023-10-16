@@ -1,0 +1,59 @@
+.YourInfo{
+    display: flex;
+    background: var(--cardColor);
+    padding: 2rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    cursor: pointer;
+}
+
+.YourInfo p span{
+    font-weight: bolder;
+}
+
+.info{
+    line-height: 2rem;
+}
+
+.YourInfo .end{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5rem;
+}
+
+#modal-modal-description form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#modal-modal-description input[type=text]{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: .5rem;
+}
+
+#modal-modal-description form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.close{
+    cursor: pointer;
+}
+
+#modal-modal-title{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.LogoSearch img{
+    width: 4rem;
+}
+
+.LogoSearch{
+    display: flex;
+    gap: 1rem;
+}
+
+.search{
+    display: flex;
+    background-color: var(--inputColor);
+    padding: .5rem;
+    border-radius: .3rem;
+    height: 2rem;
+    margin-top: 3%;
+}
+
+.search input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.s-icon{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(106.23deg,#ad2319,#f95f35 100%);
+    padding: 3%;
+    height: 2rem;
+    border-radius: .3rem;
+    margin-top: -.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
